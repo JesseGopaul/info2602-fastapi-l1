@@ -49,7 +49,7 @@ async def get_stats():
             
     return stats
 
-# --- EXERCISE 2: Calculator ---
+# -- EXERCISE 2: Calculator --
 
 @app.get('/add/{a}/{b}')
 async def add(a: float, b: float):
